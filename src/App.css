@@ -1,0 +1,53 @@
+.App {
+
+}
+
+h1 {
+  padding: 1rem;
+
+  font-weight: normal;
+  background-color: #FFCC99;
+  box-shadow: 2px 5px 1px 1px rgba(0, 0, 0, .2)
+}
+
+.inputWrapper {
+  margin-bottom: 2rem;
+}
+
+.inputWrapper input {
+  width: 100%;
+  padding: .5rem;
+  border-radius: 20px;
+
+  outline: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+ol {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 5px 1px 1px rgba(0, 0, 0, .2)
+}
+
+ol > li {
+  padding: .5rem;
+  width: 100%;
+  text-align: center;
+}
+
+
+ol>li:nth-child(odd){
+  background-color: white;
+}
+
+ol>li:nth-child(even){
+  background-color: #eee;
+}
+
+ol > li:hover {
+  background-color: #ddd;
+}
