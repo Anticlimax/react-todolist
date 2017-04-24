@@ -16,5 +16,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://liyang.life/react-demo/build"
+  "homepage": "http://liyang.life/react-todolist/build"
 }
